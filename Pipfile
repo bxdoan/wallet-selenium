@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+zksync2 = "*"
+requests = "*"
+python-dotenv = "*"
+python-json-config = "*"
+pytest = "*"
+openpyxl = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
